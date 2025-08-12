@@ -1,0 +1,37 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Secrets
+.env
+*.secret
+secrets.json
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# k6 output
+*.tmp
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Docker stuff
+*.pid
