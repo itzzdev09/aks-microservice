@@ -21,3 +21,10 @@ It simulates a cloud-native workflow, making it easy to later extend into Kubern
    ```sh
    k6 run test.js
 
+## 📊 Example Test Output
+
+**Status:** 200 OK
+
+**Avg response time:** ~22ms
+
+0% **failure rate**
