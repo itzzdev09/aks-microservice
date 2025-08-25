@@ -14,3 +14,10 @@ It simulates a cloud-native workflow, making it easy to later extend into Kubern
 1. Build the Docker image:
    ```sh
    docker build -t my-microservice ./docker-microservice
+2. Run the container:
+   ```sh
+   docker run -p 8080:80 my-microservice
+3. Test with K6:
+4. ```sh
+   k6 run test.js
+
